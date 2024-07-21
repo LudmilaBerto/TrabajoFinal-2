@@ -1,4 +1,4 @@
-import { Flex, Link, Menu } from "@chakra-ui/react";
+import { Flex, Link} from "@chakra-ui/react";
 
 
 function Nav() {
