@@ -6,7 +6,7 @@ import { SectionDos } from "../SectionDos/SectionDos"
 const Main=()=>{
 
     return(
-        <Box>
+        <Box as="main">
          <Hero/>
          <SectionDos/>
          

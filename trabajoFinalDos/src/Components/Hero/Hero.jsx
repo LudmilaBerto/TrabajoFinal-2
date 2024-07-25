@@ -6,7 +6,7 @@ import imagenMedioCirculo from '../../assets/img/forma-mediocirculo+circulo.png'
 const Hero=()=>{
 
     return(
-        <Flex bg='#201f51'w='100%' h='100vh' px='60px' wrap='wrap' id="acercademi">
+        <Flex as='section' bg='#201f51'w='100%' h='100vh' px='60px' wrap='wrap' id="acercademi">
 
             {/* Divido la section uno(HERO) en 3. */}
 

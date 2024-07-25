@@ -6,7 +6,7 @@ import CirculoContratame from '../../assets/img/Circulo Rosa Contrátame.svg'
 const SectionDos=()=>{
 
     return(
-        <Box bg='#f2f0ef' color='#201f51' py='50px' px='60px'>
+        <Box as="Section" bg='#f2f0ef' color='#201f51' py='50px' px='60px'>
             <Flex align='center' justify='space-around' pb='40px'>
 
                 <Text fontFamily='"Poppins", sans-serif' fontWeight='500' fontSize='34px' color='#201f51' flexBasis='50%'>Mis habilidades duras</Text>
