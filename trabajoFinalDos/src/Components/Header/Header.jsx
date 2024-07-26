@@ -5,19 +5,28 @@ import CV from '../../assets/document/Ludmila Berto CV.pdf'
 function Header(){
 
     return(
-        <Flex as='header'
-        w='100%'
-        h='90px' 
-        pl='60px' 
-        pr='60px' 
-        bg='color.principal' 
-        borderBottom='solid #6a686d94 1px' 
-        justify='space-between' 
-        align='center'>
-            <Flex color='color.secundario' 
-             align='center'>
+        <Flex 
+          as='header'
+          w='100%'
+          h='90px' 
+          pl='60px' 
+          pr='60px' 
+          bg='color.principal' 
+          borderBottom='solid #6a686d94 1px' 
+          justify='space-between' 
+          align='center'>
+            <Flex 
+              color='color.secundario' 
+              align='center'
+            >
                 {/* Logo */}
-                <Text fontFamily='"Barlow", sans-serif' fontWeight='500' fontSize='35px'>L.</Text>
+                <Text 
+                  fontFamily='"Barlow", sans-serif'
+                  fontWeight='500' 
+                  fontSize='35px'
+                >
+                    L.
+                </Text>
 
                 {/* Menu */}
                 <Nav/>
@@ -26,10 +35,12 @@ function Header(){
 
             {/* BOTONES EN LA ESQUINA DERECHA */}
 
-            <Flex className='botones' 
-             align='center'
+            <Flex 
+              className='botones' 
+              align='center'
             >
-                <Link href='#' 
+                <Link 
+                  href='#' 
                  className='tema-oscuro' 
                  color='color.secundario' 
                  border='solid #ffffff 1px' 
@@ -42,32 +53,35 @@ function Header(){
                     <i className="bi bi-moon"></i>
                 </Link>
 
-                <Divider orientation='vertical'
+                <Divider 
+                  orientation='vertical'
                  py='7px' 
                  m='10px'
                 />
 
-                <Link href={CV} 
-                 download='Ludmila Berto CV' 
-                 className='boton-descarga' 
-                 bg='color.secundario' 
-                 py='7px' 
-                 px='9px' 
-                 borderRadius='50%' 
-                 fontSize='13px'
-                 _hover={{backgroundColor: '#d4d2d2'}}
+                <Link 
+                  href={CV} 
+                  download='Ludmila Berto CV' 
+                  className='boton-descarga' 
+                  bg='color.secundario' 
+                  py='7px' 
+                  px='9px' 
+                  borderRadius='50%' 
+                  fontSize='13px'
+                  _hover={{backgroundColor: '#d4d2d2'}}
                 >
                     <i className="fa-solid fa-arrow-down"></i>
                 </Link>
                 
-                <Link href={CV} 
-                 download='Ludmila Berto CV' 
-                 className='texto-descarga' 
-                 color='#fbfafc' 
-                 fontFamily='"Mulish", sans-serif' 
-                 fontWeight='200' 
-                 fontSize='16px' 
-                 pl='10px'
+                <Link 
+                  href={CV} 
+                  download='Ludmila Berto CV' 
+                  className='texto-descarga' 
+                  color='color.secundario' 
+                  fontFamily='"Mulish", sans-serif' 
+                  fontWeight='200' 
+                  fontSize='16px' 
+                  pl='10px'
                 >
                     Descargar CV
                 </Link>

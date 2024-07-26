@@ -18,6 +18,8 @@ const theme = extendTheme({
       letragris:"#64657D",
       // ...
       hover:"#555486",
+      // ...
+      lineagris:"#b9b7b7a2"
       
     },
   },
