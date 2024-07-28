@@ -5,6 +5,7 @@ import { extendTheme } from "@chakra-ui/react"
 import './index.css'
 import { Header } from './Components/Header/Header'
 import { Main } from './Components/Main/Main'
+import { Footer } from './Components/Footer/Footer'
 
 const theme = extendTheme({
   colors: {
@@ -30,7 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      <ChakraProvider theme={theme}>
       <Header/>
       <Main/>
-      
+      <Footer/>
      </ChakraProvider>
   </React.StrictMode>,
 )
