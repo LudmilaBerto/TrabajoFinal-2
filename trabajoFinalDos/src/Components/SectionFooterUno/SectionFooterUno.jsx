@@ -13,7 +13,7 @@ const SectionFooterUno=()=>{
             className="section-uno-footer"
             justify='space-between'
             borderBottom='solid #6a686d94 1px'
-            py='14'    
+            py='14'   
         >
             <Box
                 className="contenedor-h2-p-footer"

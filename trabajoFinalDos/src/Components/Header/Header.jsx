@@ -24,6 +24,7 @@ function Header(){
                   fontFamily='"Barlow", sans-serif'
                   fontWeight='500' 
                   fontSize='35px'
+                  mr='10'
                 >
                     L.
                 </Text>
