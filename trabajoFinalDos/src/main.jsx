@@ -9,7 +9,7 @@ import { Main } from './Components/Main/Main'
 const theme = extendTheme({
   colors: {
     color: {
-      principal: "#211F51",
+      principal:"#201f51",
       // ...
       secundario: "#FDFCFE",
       // ...

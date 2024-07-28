@@ -12,8 +12,8 @@ const SectionTres=()=>{
             as='section' 
             className="SectionTres"
             justify='space-between'
-            py='40px'
-            px='60px'
+            py='12'
+            px='14'
             bg='color.principal'
         >
 

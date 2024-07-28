@@ -7,7 +7,7 @@ const SectionTresB=()=>{
     return(
         <Box 
             flexBasis='50%'
-            px='60px'
+            px='14'
         >
             <Text 
                 as='p'
@@ -19,7 +19,7 @@ const SectionTresB=()=>{
                 w='150px'
                 border='solid #fff 1px'
                 borderRadius='14px'
-                p='5px'
+                p='1.5'
             ></Text>
 
             <Text 
@@ -28,13 +28,13 @@ const SectionTresB=()=>{
                 fontWeight='500'
                 fontSize='25px'
                 color='color.secundario'
-                py='15px'
+                py='3.5'
             ></Text>
 
             <Divider
                 position='horizontal'
                 border='none'
-                pt='1px' 
+                pt='px' 
                 bg='color.lineagris'
 
             />
@@ -45,7 +45,7 @@ const SectionTresB=()=>{
                 fontWeight='200'
                 fontSize='20px'
                 color='color.secundario'
-                py='20px'
+                py='5'
             >
 
             </Text>
@@ -58,8 +58,8 @@ const SectionTresB=()=>{
                    fontSize='sm'
                    color='#ffffff96'
                    bg='color.principal'
-                   mr='15px'
-                   p='10px'
+                   mr='3.5'
+                   p='2.5'
                    _hover={{
                     bg: "#181641cc",
                     borderRadius: "12px"}}  
@@ -72,7 +72,7 @@ const SectionTresB=()=>{
                     fontSize='sm'
                     color='color.secundario'
                     bg='color.principal'
-                    p='10px'
+                    p='2.5'
                     _hover={{
                      bg: "#181641cc",
                      borderRadius: "12px"}}  
