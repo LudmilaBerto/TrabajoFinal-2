@@ -10,7 +10,6 @@ function Nav() {
         >
             <ScrollLink to="habilidades" smooth={true} duration={500} >
                 <Link 
-                  href="#habilidades" 
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 
@@ -19,45 +18,60 @@ function Nav() {
                     Mis Habilidades
                 </Link>
             </ScrollLink>
-            <Link 
-              href="#acercademi" 
-              fontFamily='"Mulish", sans-serif' 
-              fontSize='16px' 
-              fontWeight='200' 
-              ml='45px'
-            >
-                Acerca De Mí
-            </Link>
 
-            <Link 
-              href="#miexperiencia" 
-              fontFamily='"Mulish", sans-serif' 
-              fontSize='16px' 
-              fontWeight='200' 
-              ml='45px'
-            >
-                Mi Experiencia
-            </Link>
+            <ScrollLink to="acercademi" smooth={true} duration={500}>
 
-            <Link 
-              href="#mitrabajo" 
-              fontFamily='"Mulish", sans-serif' 
-              fontSize='16px' 
-              fontWeight='200' 
-              ml='45px'
-            >
-                Mi Trabajo
-            </Link>
+                <Link 
+                  fontFamily='"Mulish", sans-serif' 
+                  fontSize='16px' 
+                  fontWeight='200' 
+                  ml='45px'
+                >
+                    Acerca De Mí
+                </Link>
 
-            <Link 
-              href="#contacto" 
-              fontFamily='"Mulish", sans-serif' 
-              fontSize='16px' 
-              fontWeight='200' 
-              ml='45px'
-            >
-                Contacto
-            </Link>
+            </ScrollLink>
+
+          
+
+            <ScrollLink to="miexperiencia" smooth={true} duration={500}>
+                <Link 
+                  fontFamily='"Mulish", sans-serif' 
+                  fontSize='16px' 
+                  fontWeight='200' 
+                  ml='45px'
+                >
+                    Mi Experiencia
+                </Link>
+            </ScrollLink>
+
+
+
+            <ScrollLink to="mitrabajo" smooth={true} duration={500}>
+                <Link 
+                  fontFamily='"Mulish", sans-serif' 
+                  fontSize='16px' 
+                  fontWeight='200' 
+                  ml='45px'
+                >
+                    Mi Trabajo
+                </Link>
+            </ScrollLink>
+
+
+
+            <ScrollLink to="contacto" smooth={true} duration={500}>
+                <Link 
+                  fontFamily='"Mulish", sans-serif' 
+                  fontSize='16px' 
+                  fontWeight='200' 
+                  ml='45px'
+                >
+                    Contacto
+                </Link>
+            </ScrollLink>
+
+
 
         </Flex>
     )

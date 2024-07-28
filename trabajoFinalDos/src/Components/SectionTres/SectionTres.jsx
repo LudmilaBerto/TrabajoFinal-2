@@ -8,6 +8,7 @@ const SectionTres=()=>{
 
     return(
         <Flex 
+            id="miexperiencia"
             as='section' 
             className="SectionTres"
             justify='space-between'
