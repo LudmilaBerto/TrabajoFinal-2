@@ -10,8 +10,8 @@ const Hero=()=>{
           as='section'
           bg='color.principal'
           w='100%' 
-          h='100vh' 
-          px='60px' 
+          h='90vh' 
+          px='14' 
           wrap='wrap' 
           id="acercademi"
         >
@@ -31,8 +31,8 @@ const Hero=()=>{
                   fontWeight='200'
                   fontSize='4xl'
                   lineHeight='50px' 
-                  pt='35px'
-                  pb='220px'
+                  pt='9'
+                  pb='48'
                 >
                     Hola, Soy Ludmila Berto,<Text 
                                                 as='span' 
@@ -52,7 +52,7 @@ const Hero=()=>{
                       color='color.secundario' 
                       fontWeight='300'
                       fontSize='22px'
-                      pb='10px'
+                      pb='2.5'
                     >
                         Por Favor Conéctate Conmigo
                     </Text>
@@ -69,7 +69,7 @@ const Hero=()=>{
                             <Box 
                               color='color.secundario' 
                               fontSize='30px' 
-                              p='5px'
+                              p='1'
                             >
                                 <i className="fa-brands fa-linkedin contacto"></i>
                             </Box>
@@ -83,9 +83,9 @@ const Hero=()=>{
                               fontWeight='200'
                               color='color.secundario'
                               fontSize='13px'
-                              mx='3px'
-                              py='7px'
-                              px='13px'
+                              mx='1'
+                              py='1.5'
+                              px='3'
                               border='solid #ffffff 1px'
                               borderRadius='15px' 
                               _hover={{backgroundColor: 'color.hover'}}
@@ -103,7 +103,7 @@ const Hero=()=>{
                             <Box 
                               color='color.secundario' 
                               fontSize='30px' 
-                              p='5px'
+                              p='1'
                               >
                                 <i className="fa-brands fa-telegram contacto"></i>
                             </Box>
@@ -116,9 +116,9 @@ const Hero=()=>{
                               fontWeight='200'
                               color='color.secundario'
                               fontSize='13px'
-                              mx='3px'
-                              py='7px'
-                              px='13px'
+                              mx='1'
+                              py='1.5'
+                              px='3'
                               border='solid #ffffff 1px'
                               borderRadius='15px' 
                               _hover={{backgroundColor: 'color.hover'}}
@@ -134,7 +134,7 @@ const Hero=()=>{
                             <Box 
                               color='color.secundario' 
                               fontSize='30px' 
-                              p='5px'
+                              p='1'
                             >
                                 <i className="fa-brands fa-github contacto" ></i>
                             </Box>
@@ -147,9 +147,9 @@ const Hero=()=>{
                               fontWeight='200' 
                               color='color.secundario' 
                               fontSize='13px' 
-                              mx='3px' 
-                              py='7px' 
-                              px='13px' 
+                              mx='1'
+                              py='1.5'
+                              px='3'
                               border='solid #ffffff 1px' 
                               borderRadius='15px' 
                               _hover={{backgroundColor: 'color.hover'}}
@@ -170,7 +170,7 @@ const Hero=()=>{
             <Box 
               className="SectionUno-B" 
               flexBasis='33%'
-              pt='35px'
+              pt='9'
             >
 
                 <Image 
@@ -193,8 +193,8 @@ const Hero=()=>{
                     <Text  
                       fontSize='30px' 
                       fontWeight='600' 
-                      pt='8px' 
-                      px='10px'
+                      pt='2' 
+                      px='2.5'
                       >
                         22+
                     </Text>
@@ -202,7 +202,7 @@ const Hero=()=>{
                     <Text 
                       fontSize='16px' 
                       fontWeight='500' 
-                      px='12px' 
+                      px='3' 
                       lineHeight='18px'
                     >
                         Semanas De Clases
@@ -220,7 +220,7 @@ const Hero=()=>{
             <Box 
               className="SectionUno-C" 
               flexBasis='33%' 
-              pt='35px'
+              pt='9'
             >
 
                 <Flex 
@@ -230,9 +230,9 @@ const Hero=()=>{
                     
                     <Flex 
                       justify='end' 
-                      mt='35px' 
-                      mr='40px' 
-                      pb='225px'
+                      mt='9' 
+                      mr='10' 
+                      pb='60'
                     >
 
                         <Image 
@@ -246,7 +246,7 @@ const Hero=()=>{
                     </Flex>
                     
                     <Box 
-                      pl='20px'
+                      pl='5'
                     >
                         <Text 
                           color='color.secundario' 
@@ -262,7 +262,7 @@ const Hero=()=>{
                           fontFamily='"Poppins", sans-serif' 
                           fontWeight='300' 
                           fontSize='15px'
-                          pt='15px'
+                          pt='3.5'
                         >
                             Descargar mi CV <i className="bi bi-arrow-up-right"></i>
                         </Text>
