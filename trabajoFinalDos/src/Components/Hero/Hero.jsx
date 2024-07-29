@@ -21,12 +21,14 @@ const Hero=()=>{
             {/* Comienzo de Section Uno A */}
 
             <Box 
+              as='div'
               className="SectionUno-A" 
               fontFamily='"Poppins", sans-serif' 
               flexBasis='33%'
             >
 
                 <Text 
+                  as='h2'
                   color='color.secundario' 
                   fontWeight='200'
                   fontSize='4xl'
@@ -45,10 +47,12 @@ const Hero=()=>{
                 </Text>
                 
                 <Box 
+                  as='div'
                   className='contenedor-texto-iconsContact'
                 >
                     
                     <Text 
+                      as='h3'
                       color='color.secundario' 
                       fontWeight='300'
                       fontSize='22px'
@@ -58,15 +62,18 @@ const Hero=()=>{
                     </Text>
 
                     <Flex 
+                      as='div'
                       className="conteiner-en-linea"
                     >
 
                         <Flex 
+                          as='div'
                           className="contenedor-icono-y-enlace" 
                           align='center'
                         >
                             
                             <Box 
+                              as='div'
                               color='color.secundario' 
                               fontSize='30px' 
                               p='1'
@@ -76,6 +83,7 @@ const Hero=()=>{
                             
 
                             <Link 
+                              as='a'
                               href="https://www.linkedin.com/in/ludmila-berto/" 
                               target="_blank" 
                               className="linkContacto" 
@@ -89,26 +97,29 @@ const Hero=()=>{
                               border='solid #ffffff 1px'
                               borderRadius='15px' 
                               _hover={{backgroundColor: 'color.hover'}}
-                              >
+                            >
                                 LinkedIn
-                              </Link>
+                            </Link>
 
                         </Flex>
 
                         <Flex 
+                          as='div'
                           className="contenedor-icono-y-enlace" 
                           align='center'
                         > 
 
                             <Box 
+                              as='div'
                               color='color.secundario' 
                               fontSize='30px' 
                               p='1'
-                              >
+                            >
                                 <i className="fa-brands fa-telegram contacto"></i>
                             </Box>
 
                             <Link 
+                              as='a'
                               href="https://t.me/LudmilaBerto" 
                               target="_blank" 
                               className="linkContacto" 
@@ -132,6 +143,7 @@ const Hero=()=>{
                           className="contenedor-icono-y-enlace" align='center'>
 
                             <Box 
+                              as='div'
                               color='color.secundario' 
                               fontSize='30px' 
                               p='1'
@@ -140,6 +152,7 @@ const Hero=()=>{
                             </Box>
                             
                             <Link 
+                              as='a'
                               href="https://github.com/LudmilaBerto" 
                               target="_blank" 
                               className="linkContacto" 
@@ -168,12 +181,14 @@ const Hero=()=>{
             {/* Comienzo de Section Uno B */}
 
             <Box 
+              as='div'
               className="SectionUno-B" 
               flexBasis='33%'
               pt='9'
             >
 
                 <Image 
+                  as='img'
                   src={imagenPerfil} 
                   className='Imagen-De-Perfil'  
                   h='480px' 
@@ -181,6 +196,7 @@ const Hero=()=>{
                 />
 
                 <Box 
+                  as='div'
                   className="cuadradito2D" 
                   bg='color.secundario' 
                   w='110px' 
@@ -190,7 +206,8 @@ const Hero=()=>{
                   color='color.principal'
                 >
 
-                    <Text  
+                    <Text 
+                      as='h4' 
                       fontSize='30px' 
                       fontWeight='600' 
                       pt='2' 
@@ -200,6 +217,7 @@ const Hero=()=>{
                     </Text>
                     
                     <Text 
+                      as='h4'
                       fontSize='16px' 
                       fontWeight='500' 
                       px='3' 
@@ -218,17 +236,20 @@ const Hero=()=>{
 
 
             <Box 
+              as='div'
               className="SectionUno-C" 
               flexBasis='33%' 
               pt='9'
             >
 
                 <Flex 
+                  as='div'
                   display='column'
                   className="Figuras-MedioCirculo"
                 >
                     
                     <Flex 
+                      as='div'
                       justify='end' 
                       mt='9' 
                       mr='10' 
@@ -236,6 +257,7 @@ const Hero=()=>{
                     >
 
                         <Image 
+                          as='img'
                           src={imagenMedioCirculo} 
                           alt="imagen de forma de medio circulo con circulo rosa"
                           className="imagen-medio-circulo" 
@@ -246,9 +268,11 @@ const Hero=()=>{
                     </Flex>
                     
                     <Box 
+                      as='div'
                       pl='5'
                     >
                         <Text 
+                          as='p'
                           color='color.secundario' 
                           fontFamily='"Barlow", sans-serif' 
                           fontWeight='200' 
@@ -258,6 +282,7 @@ const Hero=()=>{
                         </Text>
 
                         <Text 
+                          as='p'
                           color='color.secundario' 
                           fontFamily='"Poppins", sans-serif' 
                           fontWeight='300' 

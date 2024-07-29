@@ -15,12 +15,14 @@ const SectionDos=()=>{
             px='14'
         >
             <Flex 
+                as='div'
                 align='center' 
                 justify='space-around'
                 pb='10'
             >
 
                 <Text 
+                    as='h2'
                     fontFamily='"Poppins", sans-serif' 
                     fontWeight='500' 
                     fontSize='34px'  
@@ -44,6 +46,7 @@ const SectionDos=()=>{
 
                             {/* Separo con linea divisoria */}
                 <Divider 
+                    as='hr'
                     orientation="horizontal" 
                     b='none' 
                     pt='px' 
@@ -51,6 +54,7 @@ const SectionDos=()=>{
                 />
 
                 <Flex 
+                    as='div'
                     className="contenedor-de-habilidades" 
                     justify='space-around' 
                     flexGrow='1' 
@@ -68,6 +72,7 @@ const SectionDos=()=>{
 
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
+                        as='div'
                         bg='color.principal' 
                         h='15px' 
                         w='15px'
@@ -84,6 +89,7 @@ const SectionDos=()=>{
 
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
+                        as='div'
                         bg='color.principal' 
                         h='15px' 
                         w='15px'
@@ -102,7 +108,8 @@ const SectionDos=()=>{
                 </Flex>
 
                 {/* Separo con linea divisoria */}
-                <Divider 
+                <Divider
+                    as='hr' 
                     orientation="horizontal" 
                     b='none' 
                     pt='px' 
@@ -118,6 +125,7 @@ const SectionDos=()=>{
                 
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
+                        as='div'
                         bg='color.principal' 
                         h='15px' 
                         w='15px'
@@ -133,6 +141,7 @@ const SectionDos=()=>{
 
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
+                        as='div'
                         bg='color.principal' 
                         h='15px' 
                         w='15px'
@@ -147,6 +156,7 @@ const SectionDos=()=>{
                                     
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
+                        as='div'
                         bg='color.principal' 
                         h='15px' 
                         w='15px'
@@ -175,8 +185,9 @@ const SectionDos=()=>{
                 </Text>
 
                 <Flex 
-                className="alineacion-h2-hr" 
-                align='center'
+                  as='div'
+                  className="alineacion-h2-hr" 
+                  align='center'
                 >
                     
                     <Text 
@@ -202,6 +213,7 @@ const SectionDos=()=>{
                     
                     {/* Le agrego una linea hroizontal a la derecha */}
                     <Divider 
+                        as='hr'
                         orientation="horizontal" 
                         b='0px' 
                         pt='px' 
@@ -212,11 +224,13 @@ const SectionDos=()=>{
                 </Flex>
                 
                 <Flex 
+                    as='div'
                     className="alineacion-h2-hr" 
                     align='center'
                 >
                     {/* Le agrego una linea hroizontal a la izquierda */}
                     <Divider 
+                        as='hr'
                         orientation="horizontal" 
                         b='none' 
                         pt='px' 
@@ -248,6 +262,7 @@ const SectionDos=()=>{
                 </Flex>
 
                 <Flex 
+                    as='div'
                     className="contenedor-sticker-texto" 
                     align='center' 
                     py='8'

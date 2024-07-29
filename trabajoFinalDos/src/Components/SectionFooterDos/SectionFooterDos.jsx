@@ -15,6 +15,7 @@ const SectionFooterDos=()=>{
             h='24'
             
         >
+            {/* EXPORTO EL COMPONENTE NAV Y EL COMPONENTE ContactoFooter */}
             <Nav />
             <ContactoFooter/>
 

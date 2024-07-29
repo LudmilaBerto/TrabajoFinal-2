@@ -1,11 +1,37 @@
 import { Box, Button, Divider, Flex, Text } from '@chakra-ui/react'
+import React, { useState } from 'react';
+
+
+
+    // Definir las secciones con información variada
+    const secciones = [
+        { fecha:"oct de 2020 - ago de 2022", titulo: "Lorem ipsum dolor sit amet", descripcion: "Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer." },
+        { fecha:"oct de 2018 - ago de 2020", titulo: "Sección 2 Lorem ipsum dolor sit", descripcion: "Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer." },
+        {fecha:"oct de 2016 - ago de 2018", titulo: "Sección 3 Lorem ipsum dolor sit", descripcion: "Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer." }
+    ];
+
+
 
 const SectionTresB=()=>{
 
 
+    const [indiceActual, setIndiceActual] = useState(0);
+
+    // Manejar el clic en el botón "Anterior"
+    const manejarAnterior = () => {
+        setIndiceActual((indicePrevio) => (indicePrevio > 0 ? indicePrevio - 1 : 0));
+    };
+
+    // Manejar el clic en el botón "Siguiente"
+    const manejarSiguiente = () => {
+        setIndiceActual((indicePrevio) => (indicePrevio < secciones.length - 1 ? indicePrevio + 1 : secciones.length - 1));
+    };
+    
+
 
     return(
         <Box 
+            as='div'
             flexBasis='50%'
             px='14'
         >
@@ -16,11 +42,13 @@ const SectionTresB=()=>{
                 fontSize='13px'
                 textAlign='center'
                 color='color.secundario'
-                w='150px'
+                w='160px'
                 border='solid #fff 1px'
                 borderRadius='14px'
-                p='1.5'
-            ></Text>
+                p='1'
+            >
+                {secciones[indiceActual].fecha}
+            </Text>
 
             <Text 
                 as='h3'
@@ -29,7 +57,9 @@ const SectionTresB=()=>{
                 fontSize='25px'
                 color='color.secundario'
                 py='3.5'
-            ></Text>
+            >
+                {secciones[indiceActual].titulo}
+            </Text>
 
             <Divider
                 position='horizontal'
@@ -47,12 +77,16 @@ const SectionTresB=()=>{
                 color='color.secundario'
                 py='5'
             >
-
+                 {secciones[indiceActual].descripcion}
             </Text>
 
-            <Flex justify='end'>
+            <Flex 
+                as='div'
+                justify='end'
+            >
 
                 <Button
+                   as='button'
                    fontFamily='"Poppins", sans-serif'
                    fontWeight='400'
                    fontSize='sm'
@@ -61,12 +95,15 @@ const SectionTresB=()=>{
                    mr='3.5'
                    p='2.5'
                    _hover={{
-                    bg: "#181641cc",
-                    borderRadius: "12px"}}  
+                   bg: "#181641cc",
+                   borderRadius: "12px"}}  
+                   onClick={manejarAnterior}
+                   isDisabled={indiceActual === 0}
                 >
                     Anterior
                 </Button>
                 <Button
+                    as='button'
                     fontFamily='"Poppins", sans-serif'
                     fontWeight='400'
                     fontSize='sm'
@@ -74,8 +111,10 @@ const SectionTresB=()=>{
                     bg='color.principal'
                     p='2.5'
                     _hover={{
-                     bg: "#181641cc",
-                     borderRadius: "12px"}}  
+                    bg: "#181641cc",
+                    borderRadius: "12px"}} 
+                    onClick={manejarSiguiente}
+                    isDisabled={indiceActual === secciones.length - 1} 
                 >
                     Próximo
                 </Button>

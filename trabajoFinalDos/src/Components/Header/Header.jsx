@@ -21,6 +21,7 @@ function Header(){
             >
                 {/* Logo */}
                 <Text 
+                  as='h2'
                   fontFamily='"Barlow", sans-serif'
                   fontWeight='500' 
                   fontSize='35px'
@@ -37,31 +38,35 @@ function Header(){
             {/* BOTONES EN LA ESQUINA DERECHA */}
 
             <Flex 
+              as='div'
               className='botones' 
               align='center'
             >
                 <Link 
+                  as='a'
                   href='#' 
-                 className='tema-oscuro' 
-                 color='color.secundario' 
-                 border='solid #ffffff 1px' 
-                 borderRadius='50%' 
-                 fontSize='13px' 
-                 py='6px' 
-                 px='7px' 
-                 _hover={{backgroundColor: '#535283'}}
+                  className='tema-oscuro' 
+                  color='color.secundario' 
+                  border='solid #ffffff 1px' 
+                  borderRadius='50%' 
+                  fontSize='13px' 
+                  py='6px' 
+                  px='7px' 
+                  _hover={{backgroundColor: '#535283'}}
                 >
                     <i className="bi bi-moon"></i>
                 </Link>
 
                 <Divider 
+                  as='hr'
                   orientation='vertical'
-                 py='7px' 
-                 m='10px'
+                  py='7px' 
+                  m='10px'
                 />
 
                 <Link 
                   href={CV} 
+                  as='a'
                   download='Ludmila Berto CV' 
                   className='boton-descarga' 
                   bg='color.secundario' 
@@ -75,6 +80,7 @@ function Header(){
                 </Link>
                 
                 <Link 
+                  as='a'
                   href={CV} 
                   download='Ludmila Berto CV' 
                   className='texto-descarga' 

@@ -18,6 +18,7 @@ const SectionCuatro=()=>{
           bg='color.terciario'
         >
             <Box 
+              as='div'
               className='SectionCuatroA'
               flexBasis='50%'
               pt='7'
@@ -56,13 +57,17 @@ const SectionCuatro=()=>{
                   
                 >
 
-                    <Link href='https://ludmilaberto.github.io/ProyectoSeis/' target='_blank'>
+                    <Link 
+                        as='a'
+                        href='https://ludmilaberto.github.io/ProyectoSeis/' 
+                        target='_blank'
+                    >
                     
-                    <Image 
-                      src={proyectoSeis} 
-                      alt='imagen de una pagina interactiva de star wars'
-                      w='350px'
-                      />
+                        <Image 
+                            src={proyectoSeis} 
+                            alt='imagen de una pagina interactiva de star wars'
+                            w='350px'
+                        />
                     
                     </Link>
 
@@ -115,6 +120,7 @@ const SectionCuatro=()=>{
                 {/* PROYECTO CINCO*/}
                 
                 <Flex 
+                  as='div'
                   className='Contenedor-imagen-link-proyecto-A'
                   flexDir='column'
                   mt='24'
@@ -122,11 +128,13 @@ const SectionCuatro=()=>{
                 >
 
                     <Link
+                        as='a'
                         href='https://ludmilaberto.github.io/ProyectoCinco-Men-/#seguidos'
                         target='_blank'
                     >
                     
                         <Image 
+                            as='img'
                             src={proyectoCinco} 
                             alt='imagen de un menú'
                             w='300px'
@@ -183,6 +191,7 @@ const SectionCuatro=()=>{
             </Box>
 
             <Box 
+              as='div'
               className='SectionCuatroB' 
               flexBasis='50%'
               pt='7'
@@ -192,11 +201,16 @@ const SectionCuatro=()=>{
                 {/* PROYECTO  CUATRO*/}
 
                 <Flex 
+                  as='div'
                   className='Contenedor-imagen-link-proyecto-B'
                   flexDir='column'
                   pb='24'
                 >
-                    <Link href="https://ludmilaberto.github.io/ProyectoCuatro/" target="_blank">
+                    <Link 
+                        as='a'
+                        href="https://ludmilaberto.github.io/ProyectoCuatro/" 
+                        target="_blank"
+                    >
                         
                         <Image 
                           src={proyectoCuatro} 
@@ -254,10 +268,15 @@ const SectionCuatro=()=>{
                 {/* PROYECTO  TRES-2*/}
 
                 <Flex 
+                  as='div'
                   className='Contenedor-imagen-link-proyecto-B'
                   flexDir='column'
                 >
-                    <Link href='https://ludmilaberto.github.io/image-based-web-project-2/' target='_blank'>
+                    <Link 
+                        as='a' 
+                        href='https://ludmilaberto.github.io/image-based-web-project-2/' 
+                        target='_blank'
+                    >
                         
                         <Image 
                           src={proyectoTres} 

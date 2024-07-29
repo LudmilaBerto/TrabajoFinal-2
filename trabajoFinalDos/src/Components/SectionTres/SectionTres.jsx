@@ -5,6 +5,8 @@ import { SectionTresB } from "../SectionTresB/SectionTresB"
 
 const SectionTres=()=>{
 
+    
+
 
     return(
         <Flex 
@@ -12,17 +14,19 @@ const SectionTres=()=>{
             as='section' 
             className="SectionTres"
             justify='space-between'
-            py='12'
+            py='8'
             px='14'
             bg='color.principal'
         >
 
             <Box 
+                as='div'
                 className="SectionTresA" 
-                flexBasis='50%'
+                flexBasis='40%'
             >
 
                 <Image 
+                    as='img'
                     src={MedioCirculoRosa} 
                     alt='figura de medio circulo rosa' 
                     w='40px' 
