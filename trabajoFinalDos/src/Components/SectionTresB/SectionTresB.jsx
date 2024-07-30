@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 
 
-    // Definir las secciones con información variada
+    // Defino las secciones con información variada
     const secciones = [
         { fecha:"oct de 2020 - ago de 2022", titulo: "Lorem ipsum dolor sit amet", descripcion: "Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer." },
         { fecha:"oct de 2018 - ago de 2020", titulo: "Sección 2 Lorem ipsum dolor sit", descripcion: "Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer." },
@@ -19,6 +19,8 @@ const SectionTresB=()=>{
 
     // Manejar el clic en el botón "Anterior"
     const manejarAnterior = () => {
+        // IndicePrevio= estado que mantiene el índice de la sección actualmente visible.
+        
         setIndiceActual((indicePrevio) => (indicePrevio > 0 ? indicePrevio - 1 : 0));
     };
 

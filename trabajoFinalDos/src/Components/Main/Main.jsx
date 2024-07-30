@@ -8,7 +8,7 @@ import { SectionCuatro } from "../SectionCuatro/SectionCuatro"
 const Main=()=>{
 
     return(
-        <Box as="main">
+        <Box as="main" bg='background.light'>
          <Hero/>
          <SectionDos/>
          <SectionTres/>

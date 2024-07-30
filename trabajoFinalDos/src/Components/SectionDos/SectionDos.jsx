@@ -1,16 +1,18 @@
-import { Box, Divider, Flex, Image, Text } from "@chakra-ui/react"
+import { Box, Divider, Flex, Image, Text, useColorMode } from "@chakra-ui/react"
 import CirculoContratame from '../../assets/img/Circulo Rosa Contrátame.svg'
 
 
 
 const SectionDos=()=>{
+    const { colorMode } = useColorMode();
+
 
     return(
         <Box
             id='habilidades'
             as='section' 
-            color='color.principal'
-            bg='color.terciario'
+            color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
+            bg={colorMode === 'light' ? 'light.secondary' : 'dark.secondary'}
             py='12'
             px='14'
         >
@@ -50,7 +52,7 @@ const SectionDos=()=>{
                     orientation="horizontal" 
                     b='none' 
                     pt='px' 
-                    bg='color.lineagris'
+                    bg='#b9b7b7a2'               
                 />
 
                 <Flex 
@@ -73,7 +75,7 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg='color.principal' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         h='15px' 
                         w='15px'
                     ></Box>
@@ -90,8 +92,7 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg='color.principal' 
-                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
                         w='15px'
                     ></Box>
                     
@@ -113,7 +114,7 @@ const SectionDos=()=>{
                     orientation="horizontal" 
                     b='none' 
                     pt='px' 
-                    bg='color.lineagris'
+                    bg='#b9b7b7a2'
                 />
 
                 <Flex 
@@ -126,8 +127,7 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg='color.principal' 
-                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -142,8 +142,7 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg='color.principal' 
-                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -157,8 +156,7 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg='color.principal' 
-                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -170,7 +168,7 @@ const SectionDos=()=>{
                     orientation="horizontal" 
                     b='none' 
                     pt='px' 
-                    bg='color.lineagris'
+                    bg='#b9b7b7a2'
                 />
                 
                 

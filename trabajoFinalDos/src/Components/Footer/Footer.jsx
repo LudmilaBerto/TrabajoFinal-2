@@ -14,7 +14,7 @@ const Footer=()=>{
             as='footer'
             id="contacto"
             color='color.secundario'
-            bg='color.principal'
+            bg='background.light'
             px='14'
         >
             <SectionFooterUno/>
