@@ -1,11 +1,11 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react"
+import { Box, Flex, Image, Text, useColorMode } from "@chakra-ui/react"
 import MedioCirculoRosa from '../../assets/img/Circulo medio rosa.svg'
 import { SectionTresB } from "../SectionTresB/SectionTresB"
 
 
 const SectionTres=()=>{
 
-    
+    const { colorMode } = useColorMode();
 
 
     return(
@@ -16,7 +16,8 @@ const SectionTres=()=>{
             justify='space-between'
             py='8'
             px='14'
-            bg='color.principal'
+            bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
+            color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
         >
 
             <Box 

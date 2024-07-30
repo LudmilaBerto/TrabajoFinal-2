@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Flex, Text, useColorMode } from '@chakra-ui/react'
 import React, { useState } from 'react';
 
 
@@ -14,6 +14,7 @@ import React, { useState } from 'react';
 
 const SectionTresB=()=>{
 
+    const { colorMode } = useColorMode();
 
     const [indiceActual, setIndiceActual] = useState(0);
 
@@ -92,12 +93,12 @@ const SectionTresB=()=>{
                    fontFamily='"Poppins", sans-serif'
                    fontWeight='400'
                    fontSize='sm'
-                   color='#ffffff96'
-                   bg='color.principal'
+                   color='#ffffff'
+                   bg='none'
                    mr='3.5'
                    p='2.5'
                    _hover={{
-                   bg: "#181641cc",
+                   bg: colorMode === 'light' ? 'light.bgB' : 'dark.bgB',
                    borderRadius: "12px"}}  
                    onClick={manejarAnterior}
                    isDisabled={indiceActual === 0}
@@ -108,13 +109,13 @@ const SectionTresB=()=>{
                     as='button'
                     fontFamily='"Poppins", sans-serif'
                     fontWeight='400'
+                    color='#ffffff'
+                    bg='none'
                     fontSize='sm'
-                    color='color.secundario'
-                    bg='color.principal'
                     p='2.5'
                     _hover={{
-                    bg: "#181641cc",
-                    borderRadius: "12px"}} 
+                        bg: colorMode === 'light' ? 'light.bgB' : 'dark.bgB',
+                        borderRadius: "12px"}} 
                     onClick={manejarSiguiente}
                     isDisabled={indiceActual === secciones.length - 1} 
                 >

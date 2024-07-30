@@ -15,6 +15,7 @@ const theme = extendTheme({
       textPrimary: '#ffffff',
       textSecondary: '#211e51',
       textTertiary: '#1c1b4f',
+      bgB:'#181641cc',
     },
     dark: {
       primary: '#222326',
@@ -22,6 +23,7 @@ const theme = extendTheme({
       textPrimary: '#ffffff',
       textSecondary: '#ffffff',
       textTertiary: '#222326',
+      bgB: ' #1A1A1A ',
     },
     background: {
       light: '#f0f0f0',
