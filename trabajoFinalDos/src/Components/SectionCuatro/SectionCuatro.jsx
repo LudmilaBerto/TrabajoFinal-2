@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Text, Link } from '@chakra-ui/react'
+import { Box, Flex, Image, Text, Link, useColorMode } from '@chakra-ui/react'
 import proyectoSeis from '../../assets/img/Proyecto Seis.png'
 import proyectoCinco from '../../assets/img/Proyecto Cinco.jpg'
 import proyectoCuatro from '../../assets/img/Imagen Proyecto Cuatro.png'
@@ -6,6 +6,10 @@ import proyectoTres from '../../assets/img/Imagen Proyecto 3.2.png'
 
 const SectionCuatro=()=>{
 
+    const { colorMode } = useColorMode();
+    // Establesco el color del borde dependiendo de si esta en el tema Claro o Oscuro. Lo mismo con el Hover bg del Link
+    const borderColor = colorMode === 'light' ? '#211e51' : '#ffffff';
+    const hoverBgColor = colorMode === 'light' ? '#55548648' : '#4c4c4e48';
 
 
     return(
@@ -13,9 +17,11 @@ const SectionCuatro=()=>{
           id='mitrabajo'
           className='SectionCuatro'
           as='section'
+          color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
+          bg={colorMode === 'light' ? 'light.secondary' : 'dark.secondary'}
+
           py='10'
           px='14'
-          bg='color.terciario'
         >
             <Box 
               as='div'
@@ -83,9 +89,9 @@ const SectionCuatro=()=>{
                         p='1'
                         my='20px'
                         w='60px'
-                        border='solid #211F51 1px'
                         borderRadius='13px'
-                        _hover={{backgroundColor: '#55548648'}}
+                        border={`solid ${borderColor} 1px`}                        
+                        _hover={{backgroundColor:  hoverBgColor}}
 
                     >
                         github
@@ -156,9 +162,9 @@ const SectionCuatro=()=>{
                         p='1'
                         my='20px'
                         w='60px'
-                        border='solid #201f51 1px'
+                        border={`solid ${borderColor} 1px`}                        
+                        _hover={{backgroundColor:  hoverBgColor}}
                         borderRadius='13px'
-                        _hover={{backgroundColor: '#55548648'}}
                     >
                         github
                     </Link>
@@ -233,12 +239,12 @@ const SectionCuatro=()=>{
                         p='1'
                         my='20px'
                         w='60px'
-                        border='solid #201f51 1px'
                         borderRadius='13px'
-                        _hover={{backgroundColor: '#55548648'}}
-                        >
+                        border={`solid ${borderColor} 1px`}                        
+                        _hover={{backgroundColor:  hoverBgColor}}                        
+                    >
                             github
-                        </Link>
+                    </Link>
 
                     <Text 
                         as='h3'
@@ -298,9 +304,9 @@ const SectionCuatro=()=>{
                         p='1'
                         my='5'
                         w='60px'
-                        border='solid #201f51 1px'
                         borderRadius='13px'
-                        _hover={{backgroundColor: '#55548648'}}
+                        border={`solid ${borderColor} 1px`}                        
+                        _hover={{backgroundColor:  hoverBgColor}}
                     >
                         github
                     </Link>
