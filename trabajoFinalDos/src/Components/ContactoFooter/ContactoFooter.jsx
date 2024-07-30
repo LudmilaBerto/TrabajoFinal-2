@@ -15,7 +15,6 @@ const ContactoFooter=()=>{
         >
             
             <Link
-                as='a'
                 href="https://www.linkedin.com/in/ludmila-berto/"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 
@@ -27,7 +26,6 @@ const ContactoFooter=()=>{
             </Link>
 
             <Link
-                as='a'
                 href="https://github.com/LudmilaBerto"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 
@@ -39,7 +37,6 @@ const ContactoFooter=()=>{
             </Link>
 
             <Link
-                as='a'
                 href="https://t.me/LudmilaBerto"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 

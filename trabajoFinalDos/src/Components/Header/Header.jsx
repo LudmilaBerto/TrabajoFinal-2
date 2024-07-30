@@ -69,7 +69,6 @@ function Header() {
 
         <Link
           href={CV}
-          as='a'
           download='Ludmila Berto CV'
           className='boton-descarga'
           bg='light.secondary'
@@ -90,7 +89,6 @@ function Header() {
         </Link>
 
         <Link
-          as='a'
           href={CV}
           download='Ludmila Berto CV'
           className='texto-descarga'

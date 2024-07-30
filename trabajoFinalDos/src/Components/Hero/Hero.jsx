@@ -78,7 +78,6 @@ const Hero = () => {
                 </Box>
 
                 <Link 
-                  as='a'
                   href={`https://${platform}.com/LudmilaBerto`} 
                   target="_blank" 
                   className="linkContacto" 

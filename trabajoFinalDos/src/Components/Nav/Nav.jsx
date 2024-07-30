@@ -11,9 +11,12 @@ function Nav() {
           bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
           color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
         >
-            <ScrollLink to="habilidades" smooth={true} duration={500} >
+            <ScrollLink 
+              to="habilidades" 
+              smooth={true} 
+              duration={500} 
+            >
                 <Link 
-                  as='a'
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 
@@ -26,7 +29,6 @@ function Nav() {
             <ScrollLink to="acercademi" smooth={true} duration={500}>
 
                 <Link 
-                  as='a'
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 
@@ -41,7 +43,6 @@ function Nav() {
 
             <ScrollLink to="miexperiencia" smooth={true} duration={500}>
                 <Link 
-                  as='a'
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 
@@ -55,7 +56,6 @@ function Nav() {
 
             <ScrollLink to="mitrabajo" smooth={true} duration={500}>
                 <Link 
-                  as='a'
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 
@@ -69,7 +69,6 @@ function Nav() {
 
             <ScrollLink to="contacto" smooth={true} duration={500}>
                 <Link 
-                  as='a'
                   fontFamily='"Mulish", sans-serif' 
                   fontSize='16px' 
                   fontWeight='200' 

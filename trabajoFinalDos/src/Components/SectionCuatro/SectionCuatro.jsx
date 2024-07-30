@@ -9,7 +9,7 @@ const SectionCuatro=()=>{
     const { colorMode } = useColorMode();
     // Establesco el color del borde dependiendo de si esta en el tema Claro o Oscuro. Lo mismo con el Hover bg del Link
     const borderColor = colorMode === 'light' ? '#211e51' : '#ffffff';
-    const hoverBgColor = colorMode === 'light' ? '#55548648' : '#4c4c4e48';
+    const hoverBgColor = colorMode === 'light' ? '#55548648' : '#bcbcbc';
 
 
     return(
@@ -64,7 +64,7 @@ const SectionCuatro=()=>{
                 >
 
                     <Link 
-                        as='a'
+                        
                         href='https://ludmilaberto.github.io/ProyectoSeis/' 
                         target='_blank'
                     >
@@ -78,8 +78,7 @@ const SectionCuatro=()=>{
                     </Link>
 
                     <Link 
-                        as='a'
-                        className='link-proyecto-github'
+                         className='link-proyecto-github'
                         href='https://github.com/LudmilaBerto/ProyectoSeis' 
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
@@ -134,7 +133,6 @@ const SectionCuatro=()=>{
                 >
 
                     <Link
-                        as='a'
                         href='https://ludmilaberto.github.io/ProyectoCinco-Men-/#seguidos'
                         target='_blank'
                     >
@@ -151,8 +149,7 @@ const SectionCuatro=()=>{
                     </Link>
                     
                     <Link 
-                        as='a'
-                        className='link-proyecto-github'
+                         className='link-proyecto-github'
                         href='https://github.com/LudmilaBerto/ProyectoCinco-Men-' 
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
@@ -213,8 +210,7 @@ const SectionCuatro=()=>{
                   pb='24'
                 >
                     <Link 
-                        as='a'
-                        href="https://ludmilaberto.github.io/ProyectoCuatro/" 
+                         href="https://ludmilaberto.github.io/ProyectoCuatro/" 
                         target="_blank"
                     >
                         
@@ -228,7 +224,6 @@ const SectionCuatro=()=>{
                     </Link>
 
                     <Link 
-                        as='a'
                         className='link-proyecto-github'
                         href="https://github.com/LudmilaBerto/ProyectoCuatro" 
                         target="_blank" 
@@ -279,7 +274,6 @@ const SectionCuatro=()=>{
                   flexDir='column'
                 >
                     <Link 
-                        as='a' 
                         href='https://ludmilaberto.github.io/image-based-web-project-2/' 
                         target='_blank'
                     >
@@ -293,7 +287,6 @@ const SectionCuatro=()=>{
                     </Link>
 
                     <Link
-                        as='a'
                         className='link-proyecto-github'
                         href='https://github.com/LudmilaBerto/image-based-web-project-2'
                         target='_blank'
@@ -334,7 +327,6 @@ const SectionCuatro=()=>{
                     </Text>
 
                     <Link
-                        as='a'
                         className='link-repositorio'
                         href='https://github.com/LudmilaBerto?tab=repositories'
                         target='_blank'
@@ -345,7 +337,7 @@ const SectionCuatro=()=>{
                         mt='72'
                     
                     >
-                        Ver Más <i class="bi bi-arrow-up-right"></i>
+                        Ver Más <i className="bi bi-arrow-up-right"></i>
                     </Link>
 
                 </Flex>
