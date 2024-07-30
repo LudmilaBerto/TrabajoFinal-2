@@ -1,8 +1,8 @@
 // Hero.jsx
 import { Box, Flex, Text, Link, Image } from "@chakra-ui/react";
 import imagenPerfil from '../../assets/img/foto perfil.png';
-import imagenMedioCirculo from '../../assets/img/forma-mediocirculo+circulo.png';
 import { useColorMode } from '@chakra-ui/react';
+import { Circulo } from "../FormaMedioCirculo/FormaMedioCirculo";
 
 const Hero = () => {
   const { colorMode } = useColorMode();
@@ -168,14 +168,7 @@ const Hero = () => {
             mr='10' 
             pb='60'
           >
-            <Image 
-              as='img'
-              src={imagenMedioCirculo} 
-              alt="imagen de forma de medio circulo con circulo rosa"
-              className="imagen-medio-circulo" 
-              w='115px' 
-              h='115px'
-            />
+            <Circulo/>
           </Flex>
           
           <Box 

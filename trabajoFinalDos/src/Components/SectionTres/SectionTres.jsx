@@ -1,6 +1,6 @@
-import { Box, Flex, Image, Text, useColorMode } from "@chakra-ui/react"
-import MedioCirculoRosa from '../../assets/img/Circulo medio rosa.svg'
+import { Box, Flex, Text, useColorMode } from "@chakra-ui/react"
 import { SectionTresB } from "../SectionTresB/SectionTresB"
+import { MedioCirculo } from "../MedioCirculo/MedioCirculo";
 
 
 const SectionTres=()=>{
@@ -26,15 +26,9 @@ const SectionTres=()=>{
                 flexBasis='40%'
             >
 
-                <Image 
-                    as='img'
-                    src={MedioCirculoRosa} 
-                    alt='figura de medio circulo rosa' 
-                    w='40px' 
-                    transform='translate(250px, 0px)'
-                />
+                <MedioCirculo/>
 
-                <Text 
+                <Text
                     as='h2'
                     fontFamily='"Poppins", sans-serif'
                     color='color.secundario'
