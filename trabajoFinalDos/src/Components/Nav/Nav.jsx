@@ -1,12 +1,15 @@
-import { Flex, Link} from "@chakra-ui/react";
+import { Flex, Link, useColorMode} from "@chakra-ui/react";
 import { Link as ScrollLink } from 'react-scroll'
 
 function Nav() {
+    const { colorMode } = useColorMode();
 
     return(
         <Flex 
           as='nav' 
           align='center'
+          bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
+          color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
         >
             <ScrollLink to="habilidades" smooth={true} duration={500} >
                 <Link 

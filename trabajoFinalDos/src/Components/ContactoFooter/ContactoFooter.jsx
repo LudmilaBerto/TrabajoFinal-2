@@ -1,15 +1,19 @@
-import { Box, Link } from "@chakra-ui/react"
+import { Box, Link, useColorMode } from "@chakra-ui/react"
 
 
 
 const ContactoFooter=()=>{
 
+    const { colorMode } = useColorMode();
 
     return(
         <Box
             className="contenedor-contacto-footer"
-            ml='7'
+            pl='7'
+            bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
+            color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
         >
+            
             <Link
                 as='a'
                 href="https://www.linkedin.com/in/ludmila-berto/"

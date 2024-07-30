@@ -1,18 +1,21 @@
-import { Box, Flex, Image, Link, Text } from "@chakra-ui/react"
+import { Box, Flex, Image, Link, Text, useColorMode } from "@chakra-ui/react"
 import CirculoRosaHablemos from '../../assets/img/Circulo Rosa Hablemos.svg'
 
 
 
 
 const SectionFooterUno=()=>{
-
+//Estoy utilizando un hook para obtener el modo de color actual en mi página
+    const { colorMode } = useColorMode();
 
     return(
         <Flex
             as='section'
             className="section-uno-footer"
             justify='space-between'
-            borderBottom='solid #6a686d94 1px'
+            borderBottom={`solid ${colorMode === 'light' ? '#6a686d94' : '#2e2e2e94'} 1px`}
+            bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
+            color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
             py='14'   
         >
             <Box
