@@ -46,7 +46,7 @@ const SectionCuatro=()=>{
                   fontFamily='"Roboto", sans-serif'
                   fontWeight='400'
                   lineHeight='16px'
-                  fontSize='13px'
+                  fontSize='sm'
                   color='color.principal'
                   pt='2.5'
                 >
@@ -83,10 +83,10 @@ const SectionCuatro=()=>{
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
-                        fontSize='13px'
+                        fontSize='sm'
                         color='color.principal'
                         p='1'
-                        my='20px'
+                        my='5'
                         w='60px'
                         borderRadius='13px'
                         border={`solid ${borderColor} 1px`}                        
@@ -100,7 +100,7 @@ const SectionCuatro=()=>{
                         as='h3'
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
-                        fontSize='30px'
+                        fontSize='3xl'
                         color='color.principal'
                     >
                         Proyecto 6
@@ -111,7 +111,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Roboto", sans-serif'
                         lineHeight='16px'
                         fontWeight='400'
-                        fontSize='13px'
+                        fontSize='xs'
                         color='color.principal'
                         pt='2.5'
                         
@@ -154,10 +154,10 @@ const SectionCuatro=()=>{
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
-                        fontSize='13px'
+                        fontSize='sm'
                         color='color.principal'
                         p='1'
-                        my='20px'
+                        my='5'
                         w='60px'
                         border={`solid ${borderColor} 1px`}                        
                         _hover={{backgroundColor:  hoverBgColor}}
@@ -170,7 +170,7 @@ const SectionCuatro=()=>{
                         as='h3'
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
-                        fontSize='30px'
+                        fontSize='3xl'
                         color='color.principal'
                     >
                         Proyecto 5
@@ -181,7 +181,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
                         lineHeight='16px'
-                        fontSize='13px'
+                        fontSize='xs'
                         color='color.principal'
                         pt='2.5'
                     >
@@ -229,10 +229,10 @@ const SectionCuatro=()=>{
                         target="_blank" 
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
-                        fontSize='13px'
+                        fontSize='sm'
                         color='color.principal'
                         p='1'
-                        my='20px'
+                        my='5'
                         w='60px'
                         borderRadius='13px'
                         border={`solid ${borderColor} 1px`}                        
@@ -245,7 +245,7 @@ const SectionCuatro=()=>{
                         as='h3'
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
-                        fontSize='30px'
+                        fontSize='3xl'
                         color='color.principal'
                     >
                         Proyecto 4
@@ -256,7 +256,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
                         lineHeight='16px'
-                        fontSize='13px'
+                        fontSize='xs'
                         color='color.principal'
                         pt='2.5'
                     >
@@ -292,7 +292,7 @@ const SectionCuatro=()=>{
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
-                        fontSize='13px'
+                        fontSize='sm'
                         color='color.principal'
                         p='1'
                         my='5'
@@ -308,7 +308,7 @@ const SectionCuatro=()=>{
                         as='h3'
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
-                        fontSize='30px'
+                        fontSize='3xl'
                         color='color.principal'
                     >
                         Proyecto 3.2
@@ -319,7 +319,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
                         lineHeight='16px'
-                        fontSize='13px'
+                        fontSize='xs'
                         color='color.principal'
                         pt='2.5'
                     >
@@ -332,7 +332,7 @@ const SectionCuatro=()=>{
                         target='_blank'
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
-                        fontSize='13px'
+                        fontSize='sm'
                         color='color.principal'
                         mt='72'
                     

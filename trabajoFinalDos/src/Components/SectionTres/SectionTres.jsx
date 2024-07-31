@@ -24,6 +24,7 @@ const SectionTres=()=>{
                 as='div'
                 className="SectionTresA" 
                 flexBasis='40%'
+                pt='9'
             >
 
                 <MedioCirculo/>
@@ -33,7 +34,7 @@ const SectionTres=()=>{
                     fontFamily='"Poppins", sans-serif'
                     color='color.secundario'
                     fontWeight='500'
-                    fontSize='34px'
+                    fontSize='3xl'
                 >
                     Mi experiencia
                 </Text>
@@ -42,7 +43,7 @@ const SectionTres=()=>{
                     as='p'
                     fontFamily='"Barlow", sans-serif'
                     fontWeight='200'
-                    fontSize='13px'
+                    fontSize='sm'
                     color='color.secundario'
                 >
                     Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer.

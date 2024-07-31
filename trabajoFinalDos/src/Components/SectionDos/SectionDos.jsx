@@ -27,7 +27,7 @@ const SectionDos=()=>{
                     as='h2'
                     fontFamily='"Poppins", sans-serif' 
                     fontWeight='500' 
-                    fontSize='34px'  
+                    fontSize='4xl'  
                     flexBasis='50%'
                 >
                     Mis habilidades duras
@@ -36,7 +36,8 @@ const SectionDos=()=>{
                 <Text 
                     fontFamily='"Barlow", sans-serif'
                     fontWeight='400' 
-                    fontSize='13px' 
+                    fontSize='sm' 
+                    lineHeight='15px'
                     ml='48' 
                     flexBasis='50%'
                 >
@@ -67,7 +68,7 @@ const SectionDos=()=>{
                         color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
-                        fontSize='18px'
+                        fontSize='lg'
                     >
                         HTML
                     </Text>
@@ -84,7 +85,7 @@ const SectionDos=()=>{
                         color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
-                        fontSize='18px'
+                        fontSize='lg'
                     >
                         CSS
                     </Text>
@@ -92,7 +93,8 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        
+                        h='15px' 
                         w='15px'
                     ></Box>
                     
@@ -100,7 +102,7 @@ const SectionDos=()=>{
                         color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
-                        fontSize='18px'
+                        fontSize='lg'
                     >
                         JavaScript
                     </Text>
@@ -127,7 +129,8 @@ const SectionDos=()=>{
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        
+                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -135,14 +138,15 @@ const SectionDos=()=>{
                         color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
-                        fontSize='18px'
+                        fontSize='lg'
                     ></Text>
 
 
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        
+                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -150,13 +154,14 @@ const SectionDos=()=>{
                         color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
-                        fontSize='18px'
+                        fontSize='lg'
                     ></Text>
                                     
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
                         as='div'
-                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        h='15px' 
+                        bg={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}                        
+                        h='15px' 
                         w='15px'
                     ></Box>
 
@@ -189,10 +194,9 @@ const SectionDos=()=>{
                 >
                     
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='300' 
-                        fontSize='28px' 
+                        fontSize='3xl' 
                         flexBasis='80%'
                     >
                         Estoy estudiando una <Text 
@@ -213,9 +217,8 @@ const SectionDos=()=>{
                     <Divider 
                         as='hr'
                         orientation="horizontal" 
-                        b='0px' 
                         pt='px' 
-                        bg='color.principal' 
+                        bg='#c0c0c1' 
                         flexBasis='20%'
                     />
 
@@ -232,16 +235,15 @@ const SectionDos=()=>{
                         orientation="horizontal" 
                         b='none' 
                         pt='px' 
-                        bg='color.principal' 
-                        flexBasis='20%'
+                        bg='#c0c0c1' 
+                        flexBasis='15%'
                     />
 
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='300' 
-                        fontSize='28px' 
-                        flexBasis='80%' 
+                        fontSize='3xl' 
+                        flexBasis='85%' 
                         pl='6'
                     >
                         Mi <Text 
@@ -277,7 +279,7 @@ const SectionDos=()=>{
                         fontFamily='"Barlow", sans-serif' 
                         fontWeight='400' 
                         lineHeight='14px' 
-                        fontSize='13px' 
+                        fontSize='sm' 
                         px='20'
                         bg='color.terciario'
 

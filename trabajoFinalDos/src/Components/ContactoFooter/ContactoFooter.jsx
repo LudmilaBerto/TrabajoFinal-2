@@ -18,9 +18,9 @@ const ContactoFooter=()=>{
                 href="https://www.linkedin.com/in/ludmila-berto/"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 
-                fontSize='16px' 
+                fontSize='md' 
                 fontWeight='200' 
-                ml='45px'
+                ml='12'
             >
                 LinkedIn
             </Link>
@@ -29,9 +29,9 @@ const ContactoFooter=()=>{
                 href="https://github.com/LudmilaBerto"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 
-                fontSize='16px' 
+                fontSize='md' 
                 fontWeight='200' 
-                ml='45px'
+                ml='12'
             >
                 GitHub
             </Link>
@@ -40,9 +40,9 @@ const ContactoFooter=()=>{
                 href="https://t.me/LudmilaBerto"
                 target="_blank"
                 fontFamily='"Mulish", sans-serif' 
-                fontSize='16px' 
+                fontSize='md' 
                 fontWeight='200' 
-                ml='45px'
+                ml='12'
             >
                 Telegram
             </Link>

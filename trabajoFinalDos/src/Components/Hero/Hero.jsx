@@ -14,6 +14,7 @@ const Hero = () => {
       w='100%' 
       h='90vh' 
       px='14' 
+      justify='space-between'
       wrap='wrap' 
       id="acercademi"
     >
@@ -22,7 +23,7 @@ const Hero = () => {
         as='div'
         className="SectionUno-A" 
         fontFamily='"Poppins", sans-serif' 
-        flexBasis='33%'
+        flexBasis='35%'
       >
         <Text 
           as='h2'
@@ -33,7 +34,7 @@ const Hero = () => {
           pt='9'
           pb='48'
         >
-          Hola, Soy Ludmila Berto,<Text 
+          Hola, Soy Ludmila Berto, <Text 
                                       as='span' 
                                       fontFamily='"Poppins", sans-serif'  
                                       fontWeight='400'
@@ -51,7 +52,7 @@ const Hero = () => {
             as='h3'
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
             fontWeight='300'
-            fontSize='22px'
+            fontSize='2xl'
             pb='2.5'
           >
             Por Favor Conéctate Conmigo
@@ -61,41 +62,106 @@ const Hero = () => {
             as='div'
             className="conteiner-en-linea"
           >
-            {['linkedin', 'telegram', 'github'].map((platform) => (
               <Flex 
-                key={platform}
-                as='div'
-                className="contenedor-icono-y-enlace" 
+                className="contenedor-icono-y-enlace"
                 align='center'
               >
-                <Box 
+                 <Box 
                   as='div'
-                  color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}  
-                  fontSize='30px' 
+                  color='#ffffff' 
+                  fontSize='3xl' 
                   p='1'
                 >
-                  <i className={`fa-brands fa-${platform} contacto`}></i>
+                    <i 
+                    className="fa-brands fa-linkedin contacto"></i>
                 </Box>
-
+                
+                
                 <Link 
-                  href={`https://${platform}.com/LudmilaBerto`} 
+                  href="https://www.linkedin.com/in/ludmila-berto/"
                   target="_blank" 
-                  className="linkContacto" 
                   fontFamily='"Poppins", sans-serif'
                   fontWeight='200'
-                  color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
-                  fontSize='13px'
+                  color='#ffffff'
+                  fontSize='xs'
                   mx='1'
                   py='1.5'
                   px='3'
                   border='solid #ffffff 1px'
-                  borderRadius='15px' 
+                  borderRadius='15px'
                   _hover={{ backgroundColor:' #8C8988' }}
                 >
-                  {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                  LinkedIn
                 </Link>
+
               </Flex>
-            ))}
+
+              <Flex 
+                className="contenedor-icono-y-enlace"
+                align='center'
+              >
+                 <Box 
+                  as='div'
+                  color='#ffffff' 
+                  fontSize='3xl' 
+                  p='1'
+                >
+                  <i 
+                  className="fa-brands fa-telegram contacto"></i>
+                </Box>
+                
+
+                <Link 
+                  href="https://t.me/LudmilaBerto"
+                  target="_blank" 
+                  fontFamily='"Poppins", sans-serif'
+                  fontWeight='200'
+                  color='#ffffff'
+                  fontSize='xs'
+                  mx='1'
+                  py='1.5'
+                  px='3'
+                  border='solid #ffffff 1px'
+                  borderRadius='15px'
+                  _hover={{ backgroundColor:' #8C8988' }}
+                  >
+                    Telegram
+                  </Link>
+
+              </Flex>
+
+              <Flex 
+                className="contenedor-icono-y-enlace"
+                align='center'
+              >
+                 <Box 
+                  as='div'
+                  color='#ffffff' 
+                  fontSize='3xl' 
+                  p='1'
+                >
+                  <i 
+                  className="fa-brands fa-github contacto"></i>
+                </Box>
+                
+
+                <Link 
+                  href="https://github.com/LudmilaBerto"
+                  target="_blank" 
+                  fontFamily='"Poppins", sans-serif'
+                  fontWeight='200'
+                  color='#ffffff'
+                  fontSize='xs'
+                  mx='1'
+                  py='1.5'
+                  px='3'
+                  border='solid #ffffff 1px'
+                  borderRadius='15px'
+                  _hover={{ backgroundColor:' #8C8988' }}
+                  >
+                    GitHub
+                  </Link>
+              </Flex>
           </Flex>
         </Box>    
       </Box>
@@ -105,7 +171,7 @@ const Hero = () => {
       <Box 
         as='div'
         className="SectionUno-B" 
-        flexBasis='33%'
+        flexBasis='30%'
         pt='9'
       >
         <Image 
@@ -113,7 +179,7 @@ const Hero = () => {
           src={imagenPerfil} 
           className='Imagen-De-Perfil'  
           h='480px' 
-          m='20px'
+          m='5'
         />
 
         <Box 
@@ -128,7 +194,7 @@ const Hero = () => {
         >
           <Text 
             as='h4' 
-            fontSize='30px' 
+            fontSize='3xl' 
             fontWeight='600' 
             pt='2' 
             px='2.5'
@@ -138,7 +204,7 @@ const Hero = () => {
           
           <Text 
             as='h4'
-            fontSize='16px' 
+            fontSize='md' 
             fontWeight='500' 
             px='3' 
             lineHeight='18px'
@@ -153,7 +219,7 @@ const Hero = () => {
       <Box 
         as='div'
         className="SectionUno-C" 
-        flexBasis='33%' 
+        flexBasis='30%' 
         pt='9'
       >
         <Flex 
@@ -180,7 +246,8 @@ const Hero = () => {
               color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
               fontFamily='"Barlow", sans-serif' 
               fontWeight='200' 
-              fontSize='13px'
+              lineHeight='16px'
+              fontSize='sm'
             >
               Estudiante de Informática y Desarrollo Web Full Stack con interés en la programación y el deseo de seguir ampliando sus conocimientos en este campo.
             </Text>
@@ -190,7 +257,7 @@ const Hero = () => {
               color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
               fontFamily='"Poppins", sans-serif' 
               fontWeight='300' 
-              fontSize='15px'
+              fontSize='md'
               pt='3.5'
             >
               Descargar mi CV <i className="bi bi-arrow-up-right"></i>

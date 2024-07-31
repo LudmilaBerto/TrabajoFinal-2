@@ -20,13 +20,13 @@ const SectionFooterUno=()=>{
         >
             <Box
                 className="contenedor-h2-p-footer"
-                flexBasis='60%'
+                flexBasis='55%'
             >
                 <Text 
                   as='h2'
                   fontFamily='"Poppins", sans-serif'
                   fontWeight='300'
-                  fontSize='28px'
+                  fontSize='3xl'
                   >
                     ¿Es interesante <Text 
                                         as='span'
@@ -40,7 +40,7 @@ const SectionFooterUno=()=>{
                     as='p'
                     fontFamily='"Roboto", sans-serif'
                     fontWeight='400'
-                    fontSize='13px'
+                    fontSize='xs'
                     >
                         Para colaborar, haga clic en los enlaces de contacto al inicio o al pie de esta página web, o en el círculo rosa a la derecha. ¡Espero con interés nuestra colaboración!
                 </Text>

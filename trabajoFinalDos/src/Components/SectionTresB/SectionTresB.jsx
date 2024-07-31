@@ -42,9 +42,8 @@ const SectionTresB=()=>{
                 as='p'
                 fontFamily='"Barlow", sans-serif'
                 fontWeight='200'
-                fontSize='13px'
+                fontSize='xs'
                 textAlign='center'
-                color='color.secundario'
                 w='160px'
                 border='solid #fff 1px'
                 borderRadius='14px'
@@ -57,8 +56,7 @@ const SectionTresB=()=>{
                 as='h3'
                 fontFamily='"Poppins", sans-serif'
                 fontWeight='500'
-                fontSize='25px'
-                color='color.secundario'
+                fontSize='2xl'
                 py='3.5'
             >
                 {secciones[indiceActual].titulo}
@@ -68,7 +66,7 @@ const SectionTresB=()=>{
                 position='horizontal'
                 border='none'
                 pt='px' 
-                bg='color.lineagris'
+                bg='#C0C0C1'
 
             />
 
@@ -76,7 +74,7 @@ const SectionTresB=()=>{
                 as='h4'
                 fontFamily='"Poppins", sans-serif'
                 fontWeight='200'
-                fontSize='20px'
+                fontSize='lg'
                 color='color.secundario'
                 py='5'
             >
