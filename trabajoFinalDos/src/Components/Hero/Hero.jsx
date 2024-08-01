@@ -12,8 +12,8 @@ const Hero = () => {
       as='section'
       bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
       w='100%' 
-      h='90vh' 
-      px='14' 
+      h={{base:"100vh", sm:"null", md:"60vh", lg:"50vh",xl:"90vh" }}
+      px={{base:"8", sm:"12", md:"10",lg:"14"}}
       justify='space-between'
       wrap='wrap' 
       id="acercademi"
@@ -23,16 +23,19 @@ const Hero = () => {
         as='div'
         className="SectionUno-A" 
         fontFamily='"Poppins", sans-serif' 
-        flexBasis='35%'
+        flexBasis={{base:"100%", sm:"null",md:"34%", lg:"null", xl:"null"}}
       >
         <Text 
           as='h2'
           color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
           fontWeight='200'
-          fontSize='4xl'
+          fontSize={{base:"xl", sm:"2xl",md:"null", lg:"null", xl:"4xl"}}
           lineHeight='50px' 
           pt='9'
-          pb='48'
+          pb={{base:"28", sm:"null", md:"40", lg:"36",xl:"56"}}
+          lineHeight={{base:"7", sm:"10"}}
+
+
         >
           Hola, Soy Ludmila Berto, <Text 
                                       as='span' 
@@ -52,8 +55,7 @@ const Hero = () => {
             as='h3'
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
             fontWeight='300'
-            fontSize='2xl'
-            pb='2.5'
+            fontSize={{base:"md", sm:"null",md:"null", lg:"null", xl:"2xl"}}
           >
             Por Favor Conéctate Conmigo
           </Text>
@@ -69,7 +71,8 @@ const Hero = () => {
                  <Box 
                   as='div'
                   color='#ffffff' 
-                  fontSize='3xl' 
+                  fontSize={{base:"lg", sm:"xl",md:"2xl", lg:"3xl", xl:"null"}}
+
                   p='1'
                 >
                     <i 
@@ -85,7 +88,7 @@ const Hero = () => {
                   color='#ffffff'
                   fontSize='xs'
                   mx='1'
-                  py='1.5'
+                  py='1'
                   px='3'
                   border='solid #ffffff 1px'
                   borderRadius='15px'
@@ -103,7 +106,7 @@ const Hero = () => {
                  <Box 
                   as='div'
                   color='#ffffff' 
-                  fontSize='3xl' 
+                  fontSize={{base:"lg", sm:"xl",md:"2xl", lg:"3xl", xl:"null"}} 
                   p='1'
                 >
                   <i 
@@ -119,7 +122,7 @@ const Hero = () => {
                   color='#ffffff'
                   fontSize='xs'
                   mx='1'
-                  py='1.5'
+                  py='1'
                   px='3'
                   border='solid #ffffff 1px'
                   borderRadius='15px'
@@ -137,7 +140,7 @@ const Hero = () => {
                  <Box 
                   as='div'
                   color='#ffffff' 
-                  fontSize='3xl' 
+                  fontSize={{base:"lg", sm:"xl",md:"2xl", lg:"3xl", xl:"null"}}
                   p='1'
                 >
                   <i 
@@ -153,7 +156,7 @@ const Hero = () => {
                   color='#ffffff'
                   fontSize='xs'
                   mx='1'
-                  py='1.5'
+                  py='1'
                   px='3'
                   border='solid #ffffff 1px'
                   borderRadius='15px'
@@ -171,30 +174,32 @@ const Hero = () => {
       <Box 
         as='div'
         className="SectionUno-B" 
-        flexBasis='30%'
-        pt='9'
+        flexBasis={{base:"100%", sm:"null",md:"40%", lg:"null", xl:"30%"}}
+
+        pt={{base:"0", sm:"null",md:"9", lg:"null", xl:"null"}}
       >
         <Image 
           as='img'
           src={imagenPerfil} 
           className='Imagen-De-Perfil'  
-          h='480px' 
-          m='5'
+          h={{base:"300px", sm:"300px",md:"null", lg:"null", xl:"480px"}}
+          m={{base:"10", sm:"10",md:"0", lg:"null", xl:"5"}}
+
         />
 
         <Box 
           as='div'
           className="cuadradito2D" 
           bg={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
-          w='110px' 
-          h='100px' 
-          transform='translate(300px, -360px)' 
+          w={{base:"85px", sm:"95px", md:"null", lg:"null", xl:"110px"}}
+          h={{base:"80px", sm:"90px", md:"null", lg:"null", xl:"100px"}}
+          transform={{base:"translate(230px, -260px)", sm:"null ",md:"translate(180px, -220px)", lg:"translate(185px, -220px)", xl:"translate(300px, -360px)"}}
           fontFamily='"Poppins", sans-serif;' 
           color={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
         >
           <Text 
             as='h4' 
-            fontSize='3xl' 
+            fontSize={{base:"xl", sm:"null",md:"null", lg:"null", xl:"3xl"}} 
             fontWeight='600' 
             pt='2' 
             px='2.5'
@@ -204,7 +209,7 @@ const Hero = () => {
           
           <Text 
             as='h4'
-            fontSize='md' 
+            fontSize={{base:"xs", sm:"sm",md:"null", lg:"null", xl:"md"}}
             fontWeight='500' 
             px='3' 
             lineHeight='18px'
@@ -219,8 +224,11 @@ const Hero = () => {
       <Box 
         as='div'
         className="SectionUno-C" 
-        flexBasis='30%' 
-        pt='9'
+        flexBasis={{base:"100%", sm:"null",md:"null", lg:"null", xl:"30%"}}
+        pt={{base:"0", sm:"null",md:"null", lg:"null", xl:"9"}}
+        mb={{base:"40"}}
+        transform={{base:"translate(0px, -180px)", md:"translate(0px, -100px)", xl:"none"}}
+      
       >
         <Flex 
           as='div'
@@ -230,9 +238,8 @@ const Hero = () => {
           <Flex 
             as='div'
             justify='end' 
-            mt='9' 
-            mr='10' 
-            pb='60'
+            pb={{base:"20", sm:"null",md:"null", lg:"null", xl:"72"}}
+
           >
             <Circulo/>
           </Flex>
@@ -240,6 +247,8 @@ const Hero = () => {
           <Box 
             as='div'
             pl='5'
+            mb='96'
+
           >
             <Text 
               as='p'
@@ -257,7 +266,7 @@ const Hero = () => {
               color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
               fontFamily='"Poppins", sans-serif' 
               fontWeight='300' 
-              fontSize='md'
+              fontSize={{base:"sm", sm:"null",md:"md", lg:"null", xl:"null"}}
               pt='3.5'
             >
               Descargar mi CV <i className="bi bi-arrow-up-right"></i>

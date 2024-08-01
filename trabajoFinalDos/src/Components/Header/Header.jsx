@@ -10,8 +10,8 @@ const Header=()=> {
     <Flex
       as='header'
       w='100%'    
-      h='90px'
-      px={{base:"10", sm:"12", md:"6",lg:"14"}}
+      h={{base:"50px", sm:"70px",md:"null", lg:"90px", xl:"null"}}
+      px={{base:"10", sm:"12", md:"10",lg:"14"}}
       bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
       color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
       borderBottom={{
