@@ -31,7 +31,7 @@ const Hero = () => {
           fontWeight='200'
           fontSize={{base:"xl", sm:"2xl",md:"null", lg:"null", xl:"4xl"}}
           pt='9'
-          pb={{base:"28", sm:"null", md:"40", lg:"36",xl:"56"}}
+          pb={{base:"28", sm:"null", md:"40", lg:"36",xl:"72"}}
           lineHeight={{base:"7", sm:"10"}}
 
 
