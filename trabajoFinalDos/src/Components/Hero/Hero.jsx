@@ -30,7 +30,6 @@ const Hero = () => {
           color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
           fontWeight='200'
           fontSize={{base:"xl", sm:"2xl",md:"null", lg:"null", xl:"4xl"}}
-          lineHeight='50px' 
           pt='9'
           pb={{base:"28", sm:"null", md:"40", lg:"36",xl:"56"}}
           lineHeight={{base:"7", sm:"10"}}

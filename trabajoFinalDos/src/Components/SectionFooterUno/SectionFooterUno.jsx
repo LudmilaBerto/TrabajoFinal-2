@@ -52,7 +52,7 @@ const SectionFooterUno=()=>{
 
             <Link
                 as='p'
-                display={{base:"none",md:"block"}
+                display={{base:"none",md:"block"}}
                 href="https://t.me/LudmilaBerto"
                 flexBasis='10%'
             >
