@@ -14,7 +14,7 @@ const Footer=()=>{
         <Box 
             as='footer'
             id="contacto"
-            px='14'
+            px={{base:"12", sm:"null", md:"10",lg:"14", xl:"16"}}
             bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
         >

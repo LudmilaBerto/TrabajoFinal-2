@@ -17,16 +17,19 @@ const SectionFooterUno=()=>{
             bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
             py='14'   
+            flexWrap='wrap'
         >
             <Box
                 className="contenedor-h2-p-footer"
-                flexBasis='55%'
+                flexBasis={{base:"100%",md:"65%", xl:"55%"}}
+
             >
                 <Text 
                   as='h2'
                   fontFamily='"Poppins", sans-serif'
                   fontWeight='300'
-                  fontSize='3xl'
+                  fontSize={{base:"md", sm:"lg",md:"2xl", lg:"3xl"}}
+
                   >
                     ¿Es interesante <Text 
                                         as='span'
@@ -41,13 +44,15 @@ const SectionFooterUno=()=>{
                     fontFamily='"Roboto", sans-serif'
                     fontWeight='400'
                     fontSize='xs'
+                    pt='3'
                     >
-                        Para colaborar, haga clic en los enlaces de contacto al inicio o al pie de esta página web, o en el círculo rosa a la derecha. ¡Espero con interés nuestra colaboración!
+                        Para colaborar, haga clic en los enlaces de contacto al inicio o al pie de esta página web. ¡Espero con interés nuestra colaboración!
                 </Text>
             </Box>
 
             <Link
                 as='p'
+                display={{base:"none",md:"block"}
                 href="https://t.me/LudmilaBerto"
                 flexBasis='10%'
             >
