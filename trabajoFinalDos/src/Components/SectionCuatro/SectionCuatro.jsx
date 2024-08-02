@@ -19,25 +19,28 @@ const SectionCuatro=()=>{
           as='section'
           color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
           bg={colorMode === 'light' ? 'light.secondary' : 'dark.secondary'}
-
+          flexWrap='wrap'
           py='10'
-          px='14'
+          px={{base:"12", sm:"null", md:"10",lg:"14", xl:"16"}}
+
         >
-            <Box 
+            <Box
               as='div'
+              flexDir='column'
               className='SectionCuatroA'
-              flexBasis='50%'
+              flexBasis={{base:"100%", sm:"null",md:"50%"}}
               pt='7'
               pb='12'
-              pr='14'
+              pr={{base:"0",md:"14"}}
+
               >
                 <Text
                   as='h2'
                   fontFamily='"Poppins", sans-serif'
                   fontWeight='500'
-                  fontSize='34px'
-                  color='color.principal'
-                >
+                  fontSize={{base:"2xl", sm:"null",md:"null", lg:"null", xl:"4xl"}}
+                  color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
+                  >
                     Mis últimos trabajos
                 </Text>
 
@@ -45,9 +48,9 @@ const SectionCuatro=()=>{
                   as='p'
                   fontFamily='"Roboto", sans-serif'
                   fontWeight='400'
-                  lineHeight='16px'
+                  lineHeight='4'
                   fontSize='sm'
-                  color='color.principal'
+                  color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                   pt='2.5'
                 >
                      Aquí podrás visualizar mis proyectos hasta la fecha, ordenados de manera cronológica, comenzando por el más reciente. Cada proyecto incluye un enlace para visualizarlo en vivo, junto con su documentación correspondiente. ¡Explora y descubre mi trabajo!
@@ -59,7 +62,8 @@ const SectionCuatro=()=>{
                   className='Contenedor-imagen-link-proyecto-A'
                   flexDir='column'
                   mt='24'
-                  ml='36'
+                  ml={{base:"0",md:"10", lg:"20", xl:"36"}}
+
                   
                 >
 
@@ -84,7 +88,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
                         fontSize='sm'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         p='1'
                         my='5'
                         w='60px'
@@ -101,7 +105,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
                         fontSize='3xl'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                     >
                         Proyecto 6
                     </Text>
@@ -109,10 +113,10 @@ const SectionCuatro=()=>{
                     <Text 
                         as='p'
                         fontFamily='"Roboto", sans-serif'
-                        lineHeight='16px'
+                        lineHeight='4'
                         fontWeight='400'
                         fontSize='xs'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         pt='2.5'
                         
                     >
@@ -129,7 +133,7 @@ const SectionCuatro=()=>{
                   className='Contenedor-imagen-link-proyecto-A'
                   flexDir='column'
                   mt='24'
-                  ml='36'
+                  ml={{base:"0",md:"10", lg:"20", xl:"36"}}
                 >
 
                     <Link
@@ -155,7 +159,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
                         fontSize='sm'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         p='1'
                         my='5'
                         w='60px'
@@ -171,7 +175,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
                         fontSize='3xl'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                     >
                         Proyecto 5
                     </Text>
@@ -180,9 +184,9 @@ const SectionCuatro=()=>{
                         as='p'
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
-                        lineHeight='16px'
+                        lineHeight='4'
                         fontSize='xs'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         pt='2.5'
                     >
                         Creación de un menú de navegación responsivo basado en un diseño proporcionado. Utilizando HTML y CSS, el menú se adapta a dispositivos móviles y de escritorio, garantizando una experiencia de usuario fluida y atractiva en todas las plataformas.
@@ -196,9 +200,10 @@ const SectionCuatro=()=>{
             <Box 
               as='div'
               className='SectionCuatroB' 
-              flexBasis='50%'
+              flexBasis={{base:"100%", sm:"null",md:"40%", lg:"45%"}}
               pt='7'
-              pl='16'
+              pl={{base:"0",md:"10", lg:"16"}}
+
             >
 
                 {/* PROYECTO  CUATRO*/}
@@ -206,6 +211,7 @@ const SectionCuatro=()=>{
                 <Flex 
                   as='div'
                   className='Contenedor-imagen-link-proyecto-B'
+                  flexBasis={{base:"100%", sm:"null",md:"45%"}}
                   flexDir='column'
                   pb='24'
                 >
@@ -230,7 +236,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
                         fontSize='sm'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         p='1'
                         my='5'
                         w='60px'
@@ -246,7 +252,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
                         fontSize='3xl'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                     >
                         Proyecto 4
                     </Text>
@@ -255,9 +261,9 @@ const SectionCuatro=()=>{
                         as='p'
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
-                        lineHeight='16px'
+                        lineHeight='4'
                         fontSize='xs'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         pt='2.5'
                     >
                         Proyecto sobre un componente (Sección de una pagina web) con 4 cajas (boxes). Cada caja contiene información sobre los servicios que ofrecen y los beneficios del mismo.         
@@ -272,6 +278,7 @@ const SectionCuatro=()=>{
                   as='div'
                   className='Contenedor-imagen-link-proyecto-B'
                   flexDir='column'
+                  
                 >
                     <Link 
                         href='https://ludmilaberto.github.io/image-based-web-project-2/' 
@@ -293,7 +300,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         textAlign='center'
                         fontSize='sm'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         p='1'
                         my='5'
                         w='60px'
@@ -309,7 +316,7 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
                         fontSize='3xl'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                     >
                         Proyecto 3.2
                     </Text>
@@ -318,9 +325,9 @@ const SectionCuatro=()=>{
                         as='p'
                         fontFamily='"Roboto", sans-serif'
                         fontWeight='400'
-                        lineHeight='16px'
+                        lineHeight='4'
                         fontSize='xs'
-                        color='color.principal'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
                         pt='2.5'
                     >
                         Proyecto es sobre un componente (sección) de una página web. Contiene un formulario para inicio de sesión o registrarse para ingresar a una cuenta en un sitio web sobre una agencia de viajes.
@@ -333,8 +340,9 @@ const SectionCuatro=()=>{
                         fontFamily='"Poppins", sans-serif'
                         fontWeight='500'
                         fontSize='sm'
-                        color='color.principal'
-                        mt='72'
+                        color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
+                        mt={{base:"28",md:"72"}}
+
                     
                     >
                         Ver Más <i className="bi bi-arrow-up-right"></i>

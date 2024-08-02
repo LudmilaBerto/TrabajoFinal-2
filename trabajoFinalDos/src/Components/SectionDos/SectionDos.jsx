@@ -13,7 +13,7 @@ const SectionDos=()=>{
             as='section' 
             color={colorMode === 'light' ? 'light.textSecondary' : 'dark.textSecondary'}
             bg={colorMode === 'light' ? 'light.secondary' : 'dark.secondary'}
-            py='12'
+            py='10'
             px={{base:"12", sm:"null", md:"10",lg:"14", xl:"16"}}
             w='100%'
         >
