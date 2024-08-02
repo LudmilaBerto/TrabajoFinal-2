@@ -18,12 +18,14 @@ const SectionTres=()=>{
             px='14'
             bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
+            flexWrap='wrap'
         >
 
             <Box 
                 as='div'
                 className="SectionTresA" 
-                flexBasis='40%'
+                flexBasis={{base:"100%",md:"30%", xl:"40%"}}
+
                 pt='9'
             >
 
@@ -34,7 +36,7 @@ const SectionTres=()=>{
                     fontFamily='"Poppins", sans-serif'
                     color='color.secundario'
                     fontWeight='500'
-                    fontSize='3xl'
+                    fontSize={{base:"2xl", lg:"3xl", xl:"null"}}
                 >
                     Mi experiencia
                 </Text>
@@ -43,7 +45,8 @@ const SectionTres=()=>{
                     as='p'
                     fontFamily='"Barlow", sans-serif'
                     fontWeight='200'
-                    fontSize='sm'
+                    fontSize={{base:"xs", lg:"sm"}}
+
                     color='color.secundario'
                 >
                     Puedes ver a un desarrollador Front End joven y apasionado que siempre está buscando oportunidades para aprender y crecer.

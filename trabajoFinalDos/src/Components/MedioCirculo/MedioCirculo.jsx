@@ -9,7 +9,8 @@ const MedioCirculo = () => {
         position="absolute"
         bottom="7"
         top='-5'
-        left="230px" // Ajusta la posición horizontal según sea necesario
+        left={{base:"180px", lg:"230px"}}
+        // Ajusta la posición horizontal según sea necesario
         width="40px"
         height="20px" // Ajusta la altura para que sea la mitad del ancho
         backgroundColor="#e3a5ec" // Color de fondo del medio círculo

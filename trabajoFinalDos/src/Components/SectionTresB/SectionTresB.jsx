@@ -35,8 +35,12 @@ const SectionTresB=()=>{
     return(
         <Box 
             as='div'
-            flexBasis='50%'
-            px='14'
+            flexBasis={{base:"100%", sm:"null",md:"50%", lg:"50%", xl:"null"}}
+
+            px={{base:"0", sm:"0",md:"", lg:"", xl:"14"}}
+            pt={{base:"14",md:"0"}}
+
+
         >
             <Text 
                 as='p'
@@ -56,7 +60,8 @@ const SectionTresB=()=>{
                 as='h3'
                 fontFamily='"Poppins", sans-serif'
                 fontWeight='500'
-                fontSize='2xl'
+                fontSize={{base:"xl", sm:"null",md:"xl", lg:"2xl", xl:"null"}}
+
                 py='3.5'
             >
                 {secciones[indiceActual].titulo}
