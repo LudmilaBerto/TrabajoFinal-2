@@ -13,7 +13,7 @@ const SectionFooterDos=()=>{
             className="Footer-section-dos"
             justify='space-between'
             align='center'
-            h='24'
+            h={{base:"50px", sm:"70px",md:"null", lg:"90px", xl:"null"}}
             bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
             

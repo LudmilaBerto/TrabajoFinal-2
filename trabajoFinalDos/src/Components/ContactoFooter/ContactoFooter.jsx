@@ -9,7 +9,7 @@ const ContactoFooter=()=>{
     return(
         <Box
             className="contenedor-contacto-footer"
-            pl='7'
+            pl={{base:"0",md:"1", xl:"7"}}
             bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'}
         >
@@ -20,7 +20,8 @@ const ContactoFooter=()=>{
                 fontFamily='"Mulish", sans-serif' 
                 fontSize='md' 
                 fontWeight='200' 
-                ml='12'
+                ml={{base:"6",md:"3", lg:"4", xl:"12"}}
+
             >
                 LinkedIn
             </Link>
@@ -31,7 +32,7 @@ const ContactoFooter=()=>{
                 fontFamily='"Mulish", sans-serif' 
                 fontSize='md' 
                 fontWeight='200' 
-                ml='12'
+                ml={{base:"6",sm:"14",md:"3", lg:"4", xl:"12"}}
             >
                 GitHub
             </Link>
@@ -42,7 +43,7 @@ const ContactoFooter=()=>{
                 fontFamily='"Mulish", sans-serif' 
                 fontSize='md' 
                 fontWeight='200' 
-                ml='12'
+                ml={{base:"6",sm:"14",md:"3", lg:"4", xl:"12"}}
             >
                 Telegram
             </Link>
