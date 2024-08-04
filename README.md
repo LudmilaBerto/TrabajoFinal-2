@@ -34,7 +34,7 @@ Implementé la funcionalidad de cambio entre tema claro y oscuro utilizando los 
 En resumen, al convertir mi proyecto a React utilizando exclusivamente Chakra UI como framework de CSS, buscaré mejorar significativamente la funcionalidad, interactividad y rendimiento de mi página web portfolio, asegurando al mismo tiempo una adaptación fluida y responsive a todos los dispositivos.
 
 ## Visualización de la Página Web
-Puedes explorar la versión mejorada y convertida a React de mi página web portfolio <a href="https://trabajo-final-dos.vercel.app/">aquí.</a>
+Puedes explorar la versión mejorada y convertida a React de mi página web portfolio <a href="https://trabajo-final-dos-ludmilaberto-ludmila-bertos-projects.vercel.app/">aquí.</a>
 
 ## Tecnologías Utilizadas
 - React
