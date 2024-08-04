@@ -12,7 +12,7 @@ const Hero = () => {
       as='section'
       bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
       w='100%' 
-      h={{base:"130vh", sm:"null", md:"60vh", lg:"50vh",xl:"90vh" }}
+      h={{base:"130vh", sm:"null", md:"70vh", lg:"60vh",xl:"90vh" }}
       px={{base:"12", sm:"12", md:"10",lg:"14", xl:"16"}}
       justify='space-between'
       wrap='wrap' 
