@@ -29,7 +29,6 @@ const SectionDos=()=>{
                     fontFamily='"Poppins", sans-serif' 
                     fontWeight='500' 
                     fontSize={{base:"2xl", sm:"null",md:"null", lg:"null", xl:"4xl"}}
-  
                     flexBasis={{base:"100%", sm:"null",md:"40%", lg:"null", xl:"null"}}
 
                 >
@@ -42,7 +41,6 @@ const SectionDos=()=>{
                     fontSize={{base:"xs", sm:"null",md:"sm", lg:"null", xl:"null"}}
                     lineHeight='15px'
                     ml={{base:"0", sm:"null",md:"24", lg:"", xl:"48"}}
-
                     flexBasis={{base:"100%", sm:"null",md:"45%", lg:"null", xl:"40%"}}
 
                 >
@@ -74,7 +72,6 @@ const SectionDos=()=>{
                 >
                     
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
                         fontSize='lg'
@@ -121,7 +118,6 @@ const SectionDos=()=>{
                       />
 
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
                         fontSize='lg'
@@ -165,7 +161,6 @@ const SectionDos=()=>{
                      />
                     
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
                         fontSize='lg'
@@ -192,7 +187,6 @@ const SectionDos=()=>{
                 <Flex 
                     className="contenedor-de-habilidades" 
                     display={{base:"none", sm:"none",md:"flex", lg:"null", xl:"null"}}
-
                     justify='space-around' 
                     flexWrap='wrap'
                     flexGrow='1' 
@@ -210,7 +204,6 @@ const SectionDos=()=>{
                     ></Box>
 
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
                         fontSize='lg'
@@ -229,7 +222,6 @@ const SectionDos=()=>{
                     ></Box>
 
                     <Text 
-                        color='color.principal' 
                         fontFamily='"Poppins", sans-serif' 
                         fontWeight='600' 
                         fontSize='lg'

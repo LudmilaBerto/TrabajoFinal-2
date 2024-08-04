@@ -12,7 +12,7 @@ const Hero = () => {
       as='section'
       bg={colorMode === 'light' ? 'light.primary' : 'dark.primary'}
       w='100%' 
-      h={{base:"100vh", sm:"null", md:"60vh", lg:"50vh",xl:"90vh" }}
+      h={{base:"130vh", sm:"null", md:"60vh", lg:"50vh",xl:"90vh" }}
       px={{base:"12", sm:"12", md:"10",lg:"14", xl:"16"}}
       justify='space-between'
       wrap='wrap' 
@@ -31,7 +31,7 @@ const Hero = () => {
           fontWeight='200'
           fontSize={{base:"xl", sm:"2xl",md:"null", lg:"null", xl:"4xl"}}
           pt='9'
-          pb={{base:"28", sm:"null", md:"40", lg:"36",xl:"72"}}
+          pb={{base:"40", lg:"36",xl:"72"}}
           lineHeight={{base:"7", sm:"10"}}
 
 
@@ -54,7 +54,7 @@ const Hero = () => {
             as='h3'
             color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
             fontWeight='300'
-            fontSize={{base:"md", sm:"null",md:"null", lg:"null", xl:"2xl"}}
+            fontSize={{base:"xl", sm:"null",md:"null", lg:"null", xl:"2xl"}}
           >
             Por Favor Conéctate Conmigo
           </Text>
@@ -225,9 +225,6 @@ const Hero = () => {
         className="SectionUno-C" 
         flexBasis={{base:"100%", sm:"null",md:"null", lg:"null", xl:"30%"}}
         pt={{base:"0", sm:"null",md:"null", lg:"null", xl:"9"}}
-        mb={{base:"40"}}
-        transform={{base:"translate(0px, -180px)", md:"translate(0px, -100px)", xl:"none"}}
-      
       >
         <Flex 
           as='div'

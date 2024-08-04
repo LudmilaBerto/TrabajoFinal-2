@@ -80,7 +80,7 @@ const SectionTresB=()=>{
                 fontFamily='"Poppins", sans-serif'
                 fontWeight='200'
                 fontSize='lg'
-                color='color.secundario'
+                color={colorMode === 'light' ? 'light.textPrimary' : 'dark.textPrimary'} 
                 py='5'
             >
                  {secciones[indiceActual].descripcion}
