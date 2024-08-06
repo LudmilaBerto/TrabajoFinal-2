@@ -42,4 +42,4 @@ Puedes explorar la versión mejorada y convertida a React de mi página web port
 - HTML
 - Control de Versiones: Git
 - Herramientas de Desarrollo: Visual Studio Code
-- Despliegue: Vercel
+- Despliegue: Vercel CLI
