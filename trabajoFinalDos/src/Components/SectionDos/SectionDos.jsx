@@ -209,7 +209,7 @@ const SectionDos=()=>{
                         fontSize='lg'
                         flexBasis={{base:"100%", sm:"null",md:"30%", lg:"null", xl:"null"}}
                         m={2} 
-                    ></Text>
+                    >React</Text>
 
 
                     {/* Creo un cuadradito divisor para separar habilidades */}
@@ -227,7 +227,7 @@ const SectionDos=()=>{
                         fontSize='lg'
                         flexBasis={{base:"100%", sm:"null",md:"30%", lg:"null", xl:"null"}}
                         m={2} 
-                    ></Text>
+                    >Bootstrap</Text>
                                     
                     {/* Creo un cuadradito divisor para separar habilidades */}
                     <Box 
