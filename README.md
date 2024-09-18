@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/94e2f808-8e4f-496d-94a7-77486562aa8f
 El objetivo es convertir completamente mi proyecto actual, desarrollado en HTML y CSS, a React utilizando exclusivamente el framework de CSS Chakra UI. La meta principal es mejorar y perfeccionar mi página web tipo portfolio, inspirada en un diseño encontrado en Dribbble, para que sea completamente funcional, responsive y capaz de adaptarse a diferentes tamaños de pantalla. Es crucial mantener la fidelidad al diseño original mientras se aprovechan las capacidades y componentes que ofrece Chakra UI para una experiencia de usuario optimizada.
 
 
-Puedes ver el diseño original de la página <a href="https://dribbble.com/shots/24118939-Portfolio-Website">aquí</a>
+Puedes ver el diseño original de la página <a href="https://dribbble.com/shots/24118939-Portfolio-Website" target='_blank'>aquí</a>
 
 
 ## Características Mejoradas con Chakra UI
@@ -34,7 +34,7 @@ Implementé la funcionalidad de cambio entre tema claro y oscuro utilizando los 
 En resumen, al convertir mi proyecto a React utilizando exclusivamente Chakra UI como framework de CSS, buscaré mejorar significativamente la funcionalidad, interactividad y rendimiento de mi página web portfolio, asegurando al mismo tiempo una adaptación fluida y responsive a todos los dispositivos.
 
 ## Visualización de la Página Web
-Puedes explorar la versión mejorada y convertida a React de mi página web portfolio <a href="https://trabajo-final-dos-ludmilaberto-ludmila-bertos-projects.vercel.app/">aquí.</a>
+Puedes explorar la versión mejorada y convertida a React de mi página web portfolio <a href="https://trabajo-final-41en7n76n-ludmila-bertos-projects.vercel.app/" target='_blank'>aquí.</a>
 
 ## Tecnologías Utilizadas
 - React
